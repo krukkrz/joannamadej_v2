@@ -1,0 +1,11 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: 88px;
+  padding-right: 88px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  gap: 94px;
+}
