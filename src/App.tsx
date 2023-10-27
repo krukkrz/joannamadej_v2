@@ -1,17 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import Home from "./pages/Home";
-import {Route, Routes} from "react-router-dom";
-import Mvp from "./pages/Mvp";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-      <>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/mvp" element={<Mvp />} />
-        </Routes>
-      </>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
