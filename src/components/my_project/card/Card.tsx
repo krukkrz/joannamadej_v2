@@ -1,4 +1,4 @@
-import { Project } from "../../../services/ProjectsService";
+import { Project } from "../../../services/data";
 import styles from "./Card.module.css";
 import placeholder from "../../../assets/my_projects_tiles/placeholder.png";
 import Button from "../../button/Button";

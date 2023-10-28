@@ -3,6 +3,7 @@ import Hero from "../components/hero/Hero";
 import MyProjects from "../components/my_project/MyProjects";
 import AboutMe from "../components/about_me/AboutMe";
 import styles from "./Home.module.css";
+import Testimonials from "../components/testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <div className={styles.home}>
         <MyProjects />
         <AboutMe />
+        <Testimonials />
       </div>
       <br />
       <br />

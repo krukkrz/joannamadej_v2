@@ -1,5 +1,5 @@
 import Card from "./card/Card";
-import { getProjects } from "../../services/ProjectsService";
+import { getProjects } from "../../services/data";
 import styles from "./MyProjects.module.css";
 
 const MyProjects = () => {

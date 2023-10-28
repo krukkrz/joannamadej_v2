@@ -1,0 +1,17 @@
+.testimonial {
+  border-color: var(--black);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.testimonial h3 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.testimonial p {
+  margin: 0;
+}
