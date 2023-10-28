@@ -4,6 +4,7 @@ import MyProjects from "../components/my_project/MyProjects";
 import AboutMe from "../components/about_me/AboutMe";
 import styles from "./Home.module.css";
 import Testimonials from "../components/testimonials/Testimonials";
+import Contact from "../components/contact/Contact";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <MyProjects />
         <AboutMe />
         <Testimonials />
+        <Contact />
       </div>
       <br />
       <br />

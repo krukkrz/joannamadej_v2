@@ -1,0 +1,12 @@
+.contact {
+  width: 40%;
+}
+
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  height: 88px;
+}
