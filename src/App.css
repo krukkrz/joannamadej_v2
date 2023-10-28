@@ -4,6 +4,7 @@ body {
   --black: #02001c;
   font-size: 24px;
   text-align: justify;
+  line-height: 32px;
 }
 
 .App {
@@ -31,6 +32,7 @@ body {
 h1 {
   font-size: 56px;
   font-weight: bold;
+  margin-bottom: 48px;
 }
 
 h2 {
