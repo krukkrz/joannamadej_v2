@@ -1,5 +1,6 @@
 import Navbar from "../navbar/Navbar";
 import styles from "./Page.module.css";
+import Footer from "../footer/Footer";
 
 type Props = {
   children: React.ReactNode;
@@ -7,10 +8,13 @@ type Props = {
 
 const Page = ({ children }: Props) => {
   return (
-    <div className={styles.page}>
-      <Navbar />
-      {children}
-    </div>
+    <>
+      <div className={styles.page}>
+        <Navbar />
+        {children}
+      </div>
+      <Footer />
+    </>
   );
 };
 
