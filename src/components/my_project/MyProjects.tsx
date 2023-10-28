@@ -1,0 +1,19 @@
+import Card from "./card/Card";
+import { getProjects } from "../../services/ProjectsService";
+import styles from "./MyProjects.module.css";
+
+const MyProjects = () => {
+  const projects = getProjects();
+  return (
+    <div>
+      <h1>My Projects</h1>
+      <div className={styles.cards}>
+        {projects.map((project) => (
+          <Card {...project} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default MyProjects;

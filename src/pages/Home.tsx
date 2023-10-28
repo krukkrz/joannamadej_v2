@@ -1,11 +1,14 @@
 import Page from "../components/page/Page";
 import Hero from "../components/hero/Hero";
+import MyProjects from "../components/my_project/MyProjects";
 
 const Home = () => {
   return (
     <Page>
       <Hero />
-      <h1>Home</h1>
+      <MyProjects />
+      <br />
+      <br />
     </Page>
   );
 };

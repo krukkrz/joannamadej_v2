@@ -1,0 +1,8 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  row-gap: 104px;
+  justify-content: space-between;
+}
