@@ -1,6 +1,5 @@
 .navbar {
   display: flex;
-  font-size: 24px;
   gap: 64px;
   font-weight: 500;
 }
