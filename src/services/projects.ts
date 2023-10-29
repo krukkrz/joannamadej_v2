@@ -1,6 +1,8 @@
 import placeholder from "../assets/my_projects_tiles/placeholder.svg";
 import omantelXL from "../assets/projects/omantel/omantel_xl.svg";
 import omantelXXL from "../assets/projects/omantel/omantel_xxl.svg";
+import guildXL from "../assets/projects/guild/guild_xl.svg";
+import guildXXL from "../assets/projects/guild/guild_xxl.svg";
 
 export const getProjects = (): Project[] => {
   return [
@@ -10,7 +12,10 @@ export const getProjects = (): Project[] => {
       description:
         "The guild app is a social app created to make networking easier. While working at Monterail Software House, I had the opportunity to design new features for the Guild app and redesign old ones.",
       tile: placeholder,
-      url: "/",
+      url: "/guild",
+      heroXL: guildXL,
+      heroXXL: guildXXL,
+      type: "Commercial",
     },
     {
       name: "omantel",
