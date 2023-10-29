@@ -35,3 +35,15 @@
     row-gap: 136px;
   }
 }
+
+@include xs {
+  .home {
+    row-gap: 128px;
+  }
+}
+
+@include xxs {
+  .home {
+    row-gap: 112px;
+  }
+}
