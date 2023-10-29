@@ -35,3 +35,13 @@
     line-height: 32px;
   }
 }
+
+@include s {
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
