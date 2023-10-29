@@ -28,3 +28,9 @@
     font-size: 64px;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero p {
+    font-size: 56px;
+  }
+}
