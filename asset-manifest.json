@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.4f5d181e.css",
-    "main.js": "./static/js/main.e4039477.js",
+    "main.css": "./static/css/main.1b147729.css",
+    "main.js": "./static/js/main.cbde2b12.js",
     "static/js/787.9a51c2a0.chunk.js": "./static/js/787.9a51c2a0.chunk.js",
+    "static/media/work_1.svg": "./static/media/work_1.7cdf84b43f368ca2ac57e95f319e5fcb.svg",
+    "static/media/work_2.svg": "./static/media/work_2.f47ff04d5edaf4bc894ca3610a37f760.svg",
     "static/media/omantel_xl.svg": "./static/media/omantel_xl.0c2c8c539ea36f51ee8bb8719f8f7b45.svg",
     "static/media/omantel_xxl.svg": "./static/media/omantel_xxl.b5def807583fb1a75399f91044667544.svg",
+    "static/media/work_4.svg": "./static/media/work_4.01a7a9518eca862be3ef89ecc78ec52b.svg",
+    "static/media/work_3.svg": "./static/media/work_3.0cb697a397c11f47fb8e2d149dec29b0.svg",
     "static/media/xl.svg": "./static/media/xl.f963a1e5084fcea55472f84d717d312f.svg",
     "static/media/phone.svg": "./static/media/phone.eaf3cbfb154b48242402cd3b04b3d5b6.svg",
     "static/media/linkedin.svg": "./static/media/linkedin.0e5b93afecda39e15b1088f28802904e.svg",
@@ -13,12 +17,12 @@
     "static/media/close.svg": "./static/media/close.bd7b410b7daac137af80b07eb75f4e9a.svg",
     "static/media/hamburger.svg": "./static/media/hamburger.1b6eea15faaea56820e39df86359810a.svg",
     "static/media/placeholder.svg": "./static/media/placeholder.706eff2c24e491bbaf64cd9242989d12.svg",
-    "main.4f5d181e.css.map": "./static/css/main.4f5d181e.css.map",
-    "main.e4039477.js.map": "./static/js/main.e4039477.js.map",
+    "main.1b147729.css.map": "./static/css/main.1b147729.css.map",
+    "main.cbde2b12.js.map": "./static/js/main.cbde2b12.js.map",
     "787.9a51c2a0.chunk.js.map": "./static/js/787.9a51c2a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f5d181e.css",
-    "static/js/main.e4039477.js"
+    "static/css/main.1b147729.css",
+    "static/js/main.cbde2b12.js"
   ]
 }
