@@ -1,4 +1,4 @@
-@use '../../styles/rwd.scss' as *;
+@use "../../styles/rwd.scss" as *;
 
 .page {
   display: flex;
@@ -34,13 +34,13 @@
 }
 
 @include m {
-    .page {
-        padding-left: 48px;
-        padding-right: 48px;
-        padding-top: 24px;
-        padding-bottom: 120px;
-        gap: 72px;
-    }
+  .page {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 120px;
+    gap: 72px;
+  }
 }
 
 @include s {

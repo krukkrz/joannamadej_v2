@@ -23,3 +23,9 @@
     row-gap: 168px;
   }
 }
+
+@include s {
+  .home {
+    row-gap: 136px;
+  }
+}

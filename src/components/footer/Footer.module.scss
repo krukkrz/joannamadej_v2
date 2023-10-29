@@ -1,5 +1,7 @@
+@use "../../styles/variables.scss" as *;
+
 .footer {
-  background-color: var(--black);
+  background-color: $black;
   color: white;
   box-sizing: border-box;
   width: 100%;

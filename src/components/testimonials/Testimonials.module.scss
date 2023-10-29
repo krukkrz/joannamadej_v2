@@ -1,3 +1,5 @@
+@use "../../styles/rwd.scss" as *;
+
 .testimonials {
   display: flex;
   flex-direction: row;
@@ -18,4 +20,21 @@
   flex-direction: column;
   justify-content: center;
   width: 40%;
+}
+
+@include s {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonials_col1 {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .testimonials_col2 {
+    width: 100%;
+  }
 }

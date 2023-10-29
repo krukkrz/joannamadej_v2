@@ -1,6 +1,6 @@
 import { getTestimonials } from "../../services/data";
 import TestimonialCard from "./testimonial/TestimonialCard";
-import styles from "./Testimonials.module.css";
+import styles from "./Testimonials.module.scss";
 
 const Testimonials = () => {
   const testimonials = getTestimonials();
@@ -10,10 +10,10 @@ const Testimonials = () => {
       <div className={styles.testimonials}>
         <div className={styles.testimonials_col1}>
           <TestimonialCard {...testimonials[0]} />
-          <TestimonialCard {...testimonials[1]} />
+          <TestimonialCard {...testimonials[2]} />
         </div>
         <div className={styles.testimonials_col2}>
-          <TestimonialCard {...testimonials[2]} />
+          <TestimonialCard {...testimonials[1]} />
         </div>
       </div>
     </div>

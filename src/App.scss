@@ -1,14 +1,14 @@
 @use "styles/rwd.scss" as *;
+@use "styles/variables.scss" as *;
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap");
 
 body {
-  --black: #02001c;
   font-size: 24px;
   font-family: Inter, sans-serif;
   text-align: justify;
   line-height: 32px;
-  color: var(--black);
+  color: $black;
 }
 
 h1 {
@@ -22,27 +22,33 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 24px;
+  margin-top: 0;
+  line-height: 32px;
+}
+
 /* unvisited link */
 a:link {
-  color: var(--black);
+  color: $black;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: var(--black);
+  color: $black;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: var(--black);
+  color: $black;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: var(--black);
+  color: $black;
   text-decoration: none;
 }
 
@@ -52,6 +58,10 @@ a:active {
   }
   h2 {
     font-size: 32px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
   }
   body {
     font-size: 16px;
@@ -66,6 +76,10 @@ a:active {
   h2 {
     font-size: 32px;
   }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   body {
     font-size: 16px;
     line-height: 24px;
@@ -79,6 +93,10 @@ a:active {
   h2 {
     font-size: 32px;
   }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   body {
     font-size: 16px;
     line-height: 24px;
@@ -91,6 +109,10 @@ a:active {
   }
   h2 {
     font-size: 24px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
   }
   body {
     font-size: 16px;
