@@ -5,6 +5,8 @@ import guildXL from "../assets/projects/guild/guild_xl.svg";
 import guildXXL from "../assets/projects/guild/guild_xxl.svg";
 import desklyXL from "../assets/projects/deskly/deskly_xl.svg";
 import desklyXXL from "../assets/projects/deskly/deskly_xxl.svg";
+import healthymeXL from "../assets/projects/healthyme/healthyme_xl.svg";
+import healthymeXXL from "../assets/projects/healthyme/healthyme_xxl.svg";
 
 export const getProjects = (): Project[] => {
   return [
@@ -47,7 +49,10 @@ export const getProjects = (): Project[] => {
       description:
         "HealthyMe is an app that aims to support users in implementing healthy habits into their daily routines. I created an interface design for it based on the provided lo-fi mockups. Designs were made for the Dare IT UI Challenge competition in which I recived an honorable mention.",
       tile: placeholder,
-      url: "/deskly",
+      url: "/healthyme",
+      heroXL: healthymeXL,
+      heroXXL: healthymeXXL,
+      type: "Personal for Dare IT UI Challenge Competition",
     },
   ];
 };

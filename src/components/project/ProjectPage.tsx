@@ -18,11 +18,13 @@ const ProjectPage = ({ project, children }: Props) => {
             <span>Project type: </span>
             {project.type}
           </div>
-          <div>
-            <a rel="noreferrer" target="_blank" href={project.figmaFile}>
-              Click here to open Figma file
-            </a>
-          </div>
+          {project.figmaFile && (
+            <div>
+              <a rel="noreferrer" target="_blank" href={project.figmaFile}>
+                Click here to open Figma file
+              </a>
+            </div>
+          )}
         </div>
         {children}
       </div>
