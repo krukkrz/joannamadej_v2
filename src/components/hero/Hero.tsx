@@ -1,5 +1,5 @@
 import joannaxl from "../../assets/hero/xl.svg";
-import styles from "./Hero.module.css";
+import styles from "./Hero.module.scss";
 const Hero = () => {
   return (
     <div className={styles.hero}>

@@ -1,5 +1,5 @@
 import { Testimonial } from "../../../services/data";
-import styles from "./TestimonialCard.module.css";
+import styles from "./TestimonialCard.module.scss";
 
 const TestimonialCard = ({ title, description }: Testimonial) => {
   return (

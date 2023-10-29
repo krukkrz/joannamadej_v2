@@ -1,3 +1,5 @@
+@use "styles/rwd.scss" as *;
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap");
 
 body {
@@ -44,7 +46,7 @@ a:active {
   text-decoration: none;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   h1 {
     font-size: 40px;
   }
@@ -57,7 +59,7 @@ a:active {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   h1 {
     font-size: 40px;
   }

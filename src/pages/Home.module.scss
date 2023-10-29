@@ -1,16 +1,18 @@
+@use "../styles/rwd.scss" as *;
+
 .home {
   display: flex;
   flex-direction: column;
   row-gap: 208px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   .home {
     row-gap: 168px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   .home {
     row-gap: 168px;
   }

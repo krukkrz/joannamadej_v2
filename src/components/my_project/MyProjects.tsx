@@ -1,6 +1,6 @@
 import Card from "./card/Card";
 import { getProjects } from "../../services/data";
-import styles from "./MyProjects.module.css";
+import styles from "./MyProjects.module.scss";
 
 const MyProjects = () => {
   const projects = getProjects();

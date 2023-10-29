@@ -1,5 +1,5 @@
 import { Project } from "../../../services/data";
-import styles from "./Card.module.css";
+import styles from "./Card.module.scss";
 import placeholder from "../../../assets/my_projects_tiles/placeholder.svg";
 import Button from "../../button/Button";
 

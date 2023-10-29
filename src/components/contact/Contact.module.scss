@@ -1,3 +1,5 @@
+@use "../../styles/rwd.scss" as *;
+
 .contact {
   width: 40%;
 }
@@ -13,14 +15,14 @@
   height: 88px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   .item {
     font-size: 20px;
     height: 80px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   .contact {
     width: 50%;
   }

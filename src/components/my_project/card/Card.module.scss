@@ -1,3 +1,5 @@
+@use "../../../styles/rwd.scss" as *;
+
 .card {
   width: 48%;
   height: 700px;
@@ -11,13 +13,13 @@
   height: auto;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   .card {
     height: 550px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   .card {
     height: 550px;
   }

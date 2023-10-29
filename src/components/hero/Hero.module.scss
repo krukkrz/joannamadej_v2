@@ -1,3 +1,5 @@
+@use "../../styles/rwd.scss" as *;
+
 .hero {
   display: flex;
   flex-direction: row;
@@ -23,13 +25,13 @@
   height: auto;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   .hero p {
     font-size: 64px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   .hero p {
     font-size: 56px;
   }

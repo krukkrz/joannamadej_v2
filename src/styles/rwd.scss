@@ -1,0 +1,11 @@
+@mixin xl {
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    @content;
+  }
+}
+
+@mixin l {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    @content;
+  }
+}

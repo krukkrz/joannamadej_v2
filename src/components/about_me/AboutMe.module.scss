@@ -1,3 +1,5 @@
+@use "../../styles/rwd.scss" as *;
+
 .aboutme {
   width: 60%;
 }
@@ -7,14 +9,14 @@
   line-height: 48px;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@include xl {
   .aboutme p {
     font-size: 20px;
     line-height: 32px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@include l {
   .aboutme {
     width: 80%;
   }

@@ -2,7 +2,7 @@ import phone from "../../assets/icons/phone.svg";
 import paperPlane from "../../assets/icons/paper_plane.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
 
-import styles from "./Contact.module.css";
+import styles from "./Contact.module.scss";
 
 const Contact = () => {
   return (
