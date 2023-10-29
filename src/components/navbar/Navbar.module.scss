@@ -1,0 +1,14 @@
+@use '../../styles/variables.scss' as *;
+@use '../../styles/rwd.scss' as *;
+
+.navbar {
+  display: flex;
+  gap: 64px;
+  font-weight: $medium;
+}
+
+@include s {
+    .navbar {
+        justify-content: space-between;
+    }
+}

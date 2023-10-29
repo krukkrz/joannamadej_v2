@@ -1,5 +1,5 @@
 import Navbar from "../navbar/Navbar";
-import styles from "./Page.module.css";
+import styles from "./Page.module.scss";
 import Footer from "../footer/Footer";
 
 type Props = {

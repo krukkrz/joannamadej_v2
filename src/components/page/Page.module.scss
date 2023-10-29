@@ -1,0 +1,54 @@
+@use '../../styles/rwd.scss' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 40px;
+  padding-bottom: 168px;
+  box-sizing: border-box;
+  gap: 96px;
+}
+
+@include xl {
+  .page {
+    padding-left: 88px;
+    padding-right: 88px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    gap: 88px;
+  }
+}
+
+@include l {
+  .page {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 24px;
+    padding-bottom: 120px;
+    gap: 80px;
+  }
+}
+
+@include m {
+    .page {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 24px;
+        padding-bottom: 120px;
+        gap: 72px;
+    }
+}
+
+@include s {
+  .page {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+    padding-bottom: 96px;
+    gap: 64px;
+  }
+}
