@@ -1,6 +1,9 @@
 import { getProject } from "../../services/projects";
 import ProjectPage from "../../components/project/ProjectPage";
-
+import work_1 from "../../assets/projects/omantel/works/work_1.svg";
+import work_2 from "../../assets/projects/omantel/works/work_2.svg";
+import work_3 from "../../assets/projects/omantel/works/work_3.svg";
+import work_4 from "../../assets/projects/omantel/works/work_4.svg";
 const Omantel = () => {
   const omantelProject = getProject("omantel");
   return (
@@ -47,20 +50,21 @@ const Omantel = () => {
           designed for this task in user flow order. Full flow with all screens
           can be seen in figma file.
         </p>
-        {/*    image placeholder*/}
+        <img src={work_1} alt="work_1" />
         <p>
           After placing an order with the outlet pickup option, the user will
           also receive an e-mail with all the necessary information. I designed
           two email templates one for users who made an appointment in the
           outlet and one for those who did not. Both designs can be seen below.
         </p>
-        {/*    image placeholder*/}
+        <img src={work_2} alt="work_2" />
         <p>
           I have prepared all elements used in the date and time picker in all
           possible states. And I've done the same for all new checkout elements.
           They can be seen below.
         </p>
-        {/*    image placeholder*/}
+        <img src={work_3} alt="work_3" />
+        <img src={work_4} alt="work_4" />
       </div>
     </ProjectPage>
   );
