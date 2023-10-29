@@ -5,7 +5,13 @@
 }
 
 @mixin l {
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 990px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin m {
+  @media (min-width: 768px) and (max-width: 989px) {
     @content;
   }
 }

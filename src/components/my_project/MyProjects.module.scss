@@ -15,3 +15,10 @@
     row-gap: 56px;
   }
 }
+
+@include m {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}

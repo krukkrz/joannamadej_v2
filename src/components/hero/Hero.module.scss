@@ -36,3 +36,9 @@
     font-size: 56px;
   }
 }
+
+@include m {
+  .hero p {
+    font-size: 56px; //todo: consider smaller font size
+  }
+}

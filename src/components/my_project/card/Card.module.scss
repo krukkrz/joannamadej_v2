@@ -24,3 +24,10 @@
     height: 550px;
   }
 }
+
+@include m {
+  .card {
+    height: 500px;
+  }
+}
+

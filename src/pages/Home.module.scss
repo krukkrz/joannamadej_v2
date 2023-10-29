@@ -17,3 +17,9 @@
     row-gap: 168px;
   }
 }
+
+@include m {
+  .home {
+    row-gap: 168px;
+  }
+}
