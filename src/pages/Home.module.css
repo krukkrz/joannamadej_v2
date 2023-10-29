@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .home {
-        row-gap: 168px;
-    }
+  .home {
+    row-gap: 168px;
+  }
 }
