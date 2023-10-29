@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/joannamadej_v2/static/css/main.f249e00f.css",
+    "main.js": "/joannamadej_v2/static/js/main.99e57df9.js",
+    "static/js/787.9a51c2a0.chunk.js": "/joannamadej_v2/static/js/787.9a51c2a0.chunk.js",
+    "static/media/xl.svg": "/joannamadej_v2/static/media/xl.f963a1e5084fcea55472f84d717d312f.svg",
+    "static/media/phone.svg": "/joannamadej_v2/static/media/phone.eaf3cbfb154b48242402cd3b04b3d5b6.svg",
+    "static/media/linkedin.svg": "/joannamadej_v2/static/media/linkedin.0e5b93afecda39e15b1088f28802904e.svg",
+    "static/media/paper_plane.svg": "/joannamadej_v2/static/media/paper_plane.ecbfad17373b4d14de3261d33cf4e181.svg",
+    "index.html": "/joannamadej_v2/index.html",
+    "static/media/close.svg": "/joannamadej_v2/static/media/close.bd7b410b7daac137af80b07eb75f4e9a.svg",
+    "static/media/hamburger.svg": "/joannamadej_v2/static/media/hamburger.1b6eea15faaea56820e39df86359810a.svg",
+    "static/media/placeholder.svg": "/joannamadej_v2/static/media/placeholder.706eff2c24e491bbaf64cd9242989d12.svg",
+    "main.f249e00f.css.map": "/joannamadej_v2/static/css/main.f249e00f.css.map",
+    "main.99e57df9.js.map": "/joannamadej_v2/static/js/main.99e57df9.js.map",
+    "787.9a51c2a0.chunk.js.map": "/joannamadej_v2/static/js/787.9a51c2a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f249e00f.css",
+    "static/js/main.99e57df9.js"
+  ]
+}
