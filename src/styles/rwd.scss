@@ -21,3 +21,9 @@
     @content;
   }
 }
+
+@mixin xs {
+  @media (min-width: 320px) and (max-width: 375px) {
+    @content;
+  }
+}

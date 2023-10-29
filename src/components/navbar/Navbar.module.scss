@@ -7,8 +7,26 @@
   font-weight: $medium;
 }
 
+.hamburger {
+  display: none;
+}
+
 @include s {
   .navbar {
     justify-content: space-between;
+  }
+}
+
+@include xs {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
   }
 }

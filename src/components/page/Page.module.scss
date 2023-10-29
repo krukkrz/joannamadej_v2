@@ -52,3 +52,13 @@
     gap: 64px;
   }
 }
+
+@include xs {
+  .page {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 128px;
+    gap: 104px;
+  }
+}
