@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.e8681624.css",
+    "main.css": "./static/css/main.4f5d181e.css",
     "main.js": "./static/js/main.adb7476b.js",
     "static/js/787.9a51c2a0.chunk.js": "./static/js/787.9a51c2a0.chunk.js",
     "static/media/omantel_xl.svg": "./static/media/omantel_xl.0c2c8c539ea36f51ee8bb8719f8f7b45.svg",
@@ -13,12 +13,12 @@
     "static/media/close.svg": "./static/media/close.bd7b410b7daac137af80b07eb75f4e9a.svg",
     "static/media/hamburger.svg": "./static/media/hamburger.1b6eea15faaea56820e39df86359810a.svg",
     "static/media/placeholder.svg": "./static/media/placeholder.706eff2c24e491bbaf64cd9242989d12.svg",
-    "main.e8681624.css.map": "./static/css/main.e8681624.css.map",
+    "main.4f5d181e.css.map": "./static/css/main.4f5d181e.css.map",
     "main.adb7476b.js.map": "./static/js/main.adb7476b.js.map",
     "787.9a51c2a0.chunk.js.map": "./static/js/787.9a51c2a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8681624.css",
+    "static/css/main.4f5d181e.css",
     "static/js/main.adb7476b.js"
   ]
 }
