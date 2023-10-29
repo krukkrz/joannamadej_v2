@@ -6,3 +6,10 @@
   row-gap: 104px;
   justify-content: space-between;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}
