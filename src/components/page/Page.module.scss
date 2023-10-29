@@ -1,5 +1,11 @@
 @use "../../styles/rwd.scss" as *;
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
 .page {
   display: flex;
   flex-direction: column;

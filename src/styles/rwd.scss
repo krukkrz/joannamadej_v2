@@ -23,13 +23,13 @@
 }
 
 @mixin xs {
-  @media (min-width: 321px) and (max-width: 375px) {
+  @media (min-width: 375px) and (max-width: 575px) {
     @content;
   }
 }
 
 @mixin xxs {
-  @media (max-width: 320px) {
+  @media (max-width: 374px) {
     @content;
   }
 }

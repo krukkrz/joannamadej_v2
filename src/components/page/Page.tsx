@@ -8,13 +8,13 @@ type Props = {
 
 const Page = ({ children }: Props) => {
   return (
-    <>
+    <div className={styles.wrapper}>
       <div className={styles.page}>
         <Navbar />
         {children}
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
