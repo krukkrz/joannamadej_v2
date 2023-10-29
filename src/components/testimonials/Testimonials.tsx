@@ -1,4 +1,4 @@
-import { getTestimonials } from "../../services/data";
+import { getTestimonials } from "../../services/testimonials";
 import TestimonialCard from "./testimonial/TestimonialCard";
 import styles from "./Testimonials.module.scss";
 
