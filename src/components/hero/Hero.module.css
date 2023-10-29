@@ -23,3 +23,11 @@
   min-width: 50%;
   height: auto;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero p {
+    width: 50%;
+    font-size: 64px;
+    line-height: normal;
+  }
+}
