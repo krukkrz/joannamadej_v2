@@ -48,3 +48,12 @@
     font-size: 40px;
   }
 }
+
+@include xs {
+  .hero img {
+    display: none;
+  }
+  .hero p {
+    font-size: 40px;
+  }
+}
