@@ -16,8 +16,8 @@ const Guild = () => {
         video calls. While working at Monterail Software House, I had the
         opportunity to design new features for the Guild app and redesign old
         ones.
-        <br/>
-        <br/>
+        <br />
+        <br />
         One of the features which I designed, was introducing the ability to
         create a conversation for the specific poll. The poll conversation was
         meant to be a space to exchange opinions about the poll results. The

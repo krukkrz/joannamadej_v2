@@ -3,6 +3,8 @@ import omantelXL from "../assets/projects/omantel/omantel_xl.svg";
 import omantelXXL from "../assets/projects/omantel/omantel_xxl.svg";
 import guildXL from "../assets/projects/guild/guild_xl.svg";
 import guildXXL from "../assets/projects/guild/guild_xxl.svg";
+import desklyXL from "../assets/projects/deskly/deskly_xl.svg";
+import desklyXXL from "../assets/projects/deskly/deskly_xxl.svg";
 
 export const getProjects = (): Project[] => {
   return [
@@ -34,7 +36,10 @@ export const getProjects = (): Project[] => {
       description:
         "UX case study, created to showcase my design process and UX skills. As part of the project, I conducted a UX audit and in-depth interviews with users, and I designed screens for Deskly - a desk booking application.",
       tile: placeholder,
-      url: "/",
+      url: "/deskly",
+      heroXL: desklyXL,
+      heroXXL: desklyXXL,
+      type: "Personal created for portfolio purposes",
     },
     {
       name: "healthyme",
@@ -42,7 +47,7 @@ export const getProjects = (): Project[] => {
       description:
         "HealthyMe is an app that aims to support users in implementing healthy habits into their daily routines. I created an interface design for it based on the provided lo-fi mockups. Designs were made for the Dare IT UI Challenge competition in which I recived an honorable mention.",
       tile: placeholder,
-      url: "/",
+      url: "/deskly",
     },
   ];
 };
