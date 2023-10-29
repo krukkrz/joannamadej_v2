@@ -1,6 +1,6 @@
-import phone from "../../assets/icons/phone.png";
-import paperPlane from "../../assets/icons/paper_plane.png";
-import linkedin from "../../assets/icons/linkedin.png";
+import phone from "../../assets/icons/phone.svg";
+import paperPlane from "../../assets/icons/paper_plane.svg";
+import linkedin from "../../assets/icons/linkedin.svg";
 
 import styles from "./Contact.module.css";
 

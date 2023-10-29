@@ -1,4 +1,4 @@
-import joannaxl from "../../assets/hero/xl.png";
+import joannaxl from "../../assets/hero/xl.svg";
 import styles from "./Hero.module.css";
 const Hero = () => {
   return (
