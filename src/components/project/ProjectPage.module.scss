@@ -1,3 +1,5 @@
+@use "../../styles/rwd" as *;
+
 .content {
   display: flex;
   flex-direction: column;
@@ -41,4 +43,18 @@
 }
 
 .heroXL {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 56px;
+  display: none;
+}
+
+@include xl {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
 }
