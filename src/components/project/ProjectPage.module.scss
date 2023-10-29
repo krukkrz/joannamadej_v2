@@ -58,3 +58,63 @@
     display: block;
   }
 }
+
+@include l {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+}
+
+@include m {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+}
+
+@include s {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+
+  .projectData {
+    font-size: 18px;
+  }
+
+  .content {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
+@include xs {
+  .heroXXL {
+    display: none;
+  }
+
+  .heroXL {
+    display: block;
+  }
+
+  .projectData {
+    font-size: 18px;
+  }
+
+  .content {
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
