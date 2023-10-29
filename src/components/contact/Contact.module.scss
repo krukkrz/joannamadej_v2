@@ -15,11 +15,21 @@
   height: 88px;
 }
 
+.item img {
+  height: 40px;
+  width: 40px;
+}
+
 @include xl {
   .item {
     font-size: 20px;
     line-height: 32px;
     height: 80px;
+  }
+
+  .item img {
+    height: 32px;
+    width: 32px;
   }
 }
 
@@ -28,6 +38,12 @@
     font-size: 20px;
     height: 80px;
   }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
   .contact {
     width: 50%;
   }
@@ -38,6 +54,12 @@
     font-size: 20px;
     height: 80px;
   }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
   .contact {
     width: 60%;
   }
@@ -48,6 +70,12 @@
     font-size: 20px;
     height: 80px;
   }
+
+  .item img {
+    height: 32px;
+    width: 32px;
+  }
+
   .contact {
     width: 60%;
   }
@@ -58,6 +86,28 @@
     font-size: 16px;
     height: 80px;
   }
+
+  .item img {
+    height: 28px;
+    width: 28px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+}
+
+@include xxs {
+  .item {
+    font-size: 14px;
+    height: 80px;
+  }
+
+  .item img {
+    height: 28px;
+    width: 28px;
+  }
+
   .contact {
     width: 100%;
   }
