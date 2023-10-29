@@ -30,3 +30,9 @@
     height: 500px;
   }
 }
+
+@include s {
+  .card {
+    height: 490px;
+  }
+}

@@ -22,3 +22,10 @@
     row-gap: 56px;
   }
 }
+
+@include s {
+  .cards {
+    gap: 24px;
+    row-gap: 56px;
+  }
+}
