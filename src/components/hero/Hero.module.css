@@ -13,7 +13,6 @@
 }
 
 .hero p {
-  width: 50%;
   font-size: 4.7vw;
   line-height: normal;
 }
@@ -26,8 +25,6 @@
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .hero p {
-    width: 50%;
     font-size: 64px;
-    line-height: normal;
   }
 }
