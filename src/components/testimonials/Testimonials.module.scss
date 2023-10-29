@@ -38,3 +38,21 @@
     width: 100%;
   }
 }
+
+
+@include xs {
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonials_col1 {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .testimonials_col2 {
+    width: 100%;
+  }
+}
