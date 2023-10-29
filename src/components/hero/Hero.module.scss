@@ -42,3 +42,9 @@
     font-size: 56px; //todo: consider smaller font size
   }
 }
+
+@include s {
+    .hero p {
+        font-size: 40px;
+    }
+}
