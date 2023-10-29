@@ -3,3 +3,15 @@
   flex-direction: column;
   row-gap: 208px;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .home {
+    row-gap: 168px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home {
+        row-gap: 168px;
+    }
+}
