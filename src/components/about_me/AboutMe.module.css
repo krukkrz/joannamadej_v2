@@ -6,3 +6,10 @@
   font-size: 32px;
   line-height: 48px;
 }
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .aboutme p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
