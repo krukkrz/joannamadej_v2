@@ -30,3 +30,17 @@
     width: 48px;
   }
 }
+
+@include xxs {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+  }
+}
